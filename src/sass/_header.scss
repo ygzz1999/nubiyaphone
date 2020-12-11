@@ -1,0 +1,56 @@
+.header {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.head-logo {
+    width: 240px;
+    height: 60px;
+}
+
+.head-a-box {
+    float: left;
+}
+
+.head-logo a {
+    display: inline-block;
+    width: 240px;
+}
+
+.head-logo a img {
+    width: 180px;
+    margin-top: 18px;
+}
+
+.head-ul {
+    height: 60px;
+    width: 720px;
+}
+
+.head-ul ul {
+    width: 720px;
+    float: left;
+}
+
+.head-ul ul li {
+    line-height: 60px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+head-ul ul a:hover {
+    color: #428bca;
+}
+
+.head-icon {
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+.head-icon span {
+    font-size: 20px;
+    padding: 0 10px;
+}
