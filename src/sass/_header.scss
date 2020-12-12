@@ -2,6 +2,7 @@
     width: 1200px;
     height: 60px;
     margin: 0 auto;
+    position: relative;
 }
 
 .head-logo {
@@ -41,8 +42,19 @@
     font-size: 14px;
 }
 
-head-ul ul a:hover {
-    color: #428bca;
+.head-ul-xr1 {
+    height: 150px;
+    background-color: red;
+    // display: none;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+.head-ul-a1:hover {}
+
+.head-ul a:hover {
+    color: #999;
 }
 
 .head-icon {
