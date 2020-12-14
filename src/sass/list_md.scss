@@ -1,0 +1,33 @@
+.img img {
+    width: 100%;
+}
+
+.list ul li {
+    width: 208px;
+    padding: 10px;
+    float: left;
+    margin: 0 16px 16px 0;
+    border: 1px solid #ccc;
+    height: 300px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.list li p {
+    width: 200px;
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.list li img {
+    width: 205px;
+    height: 200px;
+    display: block;
+}
+
+.list li span {
+    display: block;
+    padding: 5px 0;
+}

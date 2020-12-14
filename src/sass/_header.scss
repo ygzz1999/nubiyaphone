@@ -27,6 +27,7 @@
 .head-ul {
     height: 60px;
     width: 720px;
+    position: relative;
 }
 
 .head-ul ul {
@@ -44,14 +45,10 @@
 
 .head-ul-xr1 {
     height: 150px;
-    background-color: red;
-    // display: none;
     width: 100%;
     position: absolute;
     top: 60px;
 }
-
-.head-ul-a1:hover {}
 
 .head-ul a:hover {
     color: #999;
@@ -60,9 +57,58 @@
 .head-icon {
     font-weight: 900;
     padding: 20px 0;
+    position: relative;
+}
+
+.head-a1-box {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    top: 60px;
+    z-index: 800;
+    display: none;
+    font-size: 16px;
+}
+
+.head-icon:hover .head-a1-box {
+    display: block;
+}
+
+.head-a1-box span {
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.head-a1-box-a1 {
+    color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.head-a1-box-a2 {
+    color: blue;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .head-icon span {
     font-size: 20px;
     padding: 0 10px;
+}
+
+.head-ul-xiala img {
+    width: 200px;
+}
+
+.head-ul-xiala {
+    height: 400px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 50px;
+    z-index: 900;
+    display: none;
 }
