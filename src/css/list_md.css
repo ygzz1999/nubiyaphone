@@ -10,7 +10,7 @@
   border: 1px solid #ccc;
   height: 300px;
   position: relative;
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 .list li p {
@@ -30,6 +30,13 @@
 .list li span {
   display: block;
   padding: 5px 0;
+}
+
+.bt1 {
+  width: 150px;
+  height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=list_md.css.map */

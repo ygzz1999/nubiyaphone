@@ -455,13 +455,13 @@ body {
   width: 1200px;
   margin: 0 auto;
   border-bottom: 1px solid #ccc;
+  margin-top: 50px;
 }
 
 .footer-box1 li {
   float: left;
   width: 25%;
   text-align: center;
-  margin-top: 50px;
 }
 
 .footer-box1 li span {
