@@ -52,7 +52,6 @@ html {
   font-size: 12px;
 }
 
-.content-p5,
 .content-p4 input {
   width: 360px;
   height: 50px;
@@ -66,9 +65,9 @@ html {
   margin-left: 270px;
 }
 
-.content-p5 a {
+.content-p4 a {
   text-decoration: none;
   color: white;
 }
 
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=registry.css.map */

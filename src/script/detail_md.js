@@ -138,6 +138,9 @@ define(['jcookie'], function() {
                 if ($.cookie('cookiesid') && $.cookie('cookienum')) {
                     arrsid = $.cookie('cookiesid').split(',');
                     arrnum = $.cookie('cookienum').split(',');
+                } else {
+                    arrsid = [];
+                    arrnum = [];
                 }
             }
             //上面的函数获取cookie值，并且转换成数组，方便判断是否是第一次。

@@ -1,38 +1,62 @@
 .banner {
     height: 675px;
+    // width: 1000px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
 }
 
 .banner-lunbobox {
-    width: 1920px;
+    // width: 1920px;
+    // overflow: hidden;
+    // margin: 0 auto;
+    width: 1000px;
     height: 672px;
-    margin: 0 auto;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    margin-left: -955px;
 }
 
-.banner img {
-    width: 100%;
-}
-
+// .lunbo ul {
+//     width: 1200px;
+//     height: 675px;
+//     margin: 0 auto;
+//     position: relative;
+// }
+// .banner img {
+//     width: 100%;
+//     position: absolute;
+//     left: 50%;
+//     margin-left: -960px;
+// }
 .lunbo {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 1920px;
     height: 675px;
+    // border: 1px solid red;
     overflow: hidden;
     z-index: 50;
+    margin: 0 auto;
+    position: relative;
 }
 
-.lunbo ul li a {
+.lunbo ul li {
+    width: 1920px;
+    height: 675px;
     position: absolute;
     left: 0px;
     top: 0px;
-    float: left;
+}
+
+.lunbo ul li img {
+    width: 100%;
 }
 
 .lunbo ol {
     position: absolute;
-    left: 900px;
+    left: 800px;
     bottom: 20px;
 }
 
@@ -63,9 +87,9 @@
 }
 
 #left {
-    left: 20px;
+    left: 80px;
 }
 
 #right {
-    right: 20px;
+    right: 80px;
 }

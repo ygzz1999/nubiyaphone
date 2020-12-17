@@ -1,3 +1,8 @@
+body,
+html {
+  width: 100%;
+}
+
 .header {
   width: 1200px;
   height: 60px;
@@ -177,39 +182,46 @@ body {
 
 .banner {
   height: 675px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
 }
 
 .banner-lunbobox {
-  width: 1920px;
+  width: 1000px;
   height: 672px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.banner img {
-  width: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -955px;
 }
 
 .lunbo {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1920px;
   height: 675px;
   overflow: hidden;
   z-index: 50;
+  margin: 0 auto;
+  position: relative;
 }
 
-.lunbo ul li a {
+.lunbo ul li {
+  width: 1920px;
+  height: 675px;
   position: absolute;
   left: 0px;
   top: 0px;
-  float: left;
+}
+
+.lunbo ul li img {
+  width: 100%;
 }
 
 .lunbo ol {
   position: absolute;
-  left: 900px;
+  left: 800px;
   bottom: 20px;
 }
 
@@ -237,11 +249,11 @@ body {
 }
 
 #left {
-  left: 20px;
+  left: 80px;
 }
 
 #right {
-  right: 20px;
+  right: 80px;
 }
 
 .main {
@@ -254,6 +266,10 @@ body {
   height: 672px;
   margin: 0 auto;
   position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .main-img1 {
@@ -323,6 +339,10 @@ body {
   height: 672px;
   margin: 0 auto;
   position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .main-box1-1 {
@@ -395,8 +415,8 @@ body {
   width: 1920px;
   height: 560px;
   margin: 0 auto;
-  position: absolute;
-  bottom: -980px;
+  position: relative;
+  bottom: -400px;
   left: 0;
   background-color: #f0f0f0;
   margin-top: 10px;
@@ -632,7 +652,11 @@ body {
   position: absolute;
   left: 50%;
   margin-left: -600px;
-  bottom: -1700px;
+  bottom: -1175px;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=index_md.css.map */

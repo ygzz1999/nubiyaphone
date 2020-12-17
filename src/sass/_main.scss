@@ -8,6 +8,10 @@
     height: 672px;
     margin: 0 auto;
     position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .main-img1 {
@@ -77,6 +81,10 @@
     height: 672px;
     margin: 0 auto;
     position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .main-box1-1 {
@@ -153,18 +161,18 @@
     width: 1920px;
     height: 560px;
     margin: 0 auto;
-    position: absolute;
-    bottom: -980px;
+    position: relative;
+    // top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    bottom: -400px;
     left: 0;
     background-color: #f0f0f0;
     margin-top: 10px;
     text-align: center;
 }
 
-// .main-box2-2 {
-//     position: absolute;
-//     top: 0;
-// }
 .main-box2-img1-1 {
     margin-left: 20px;
 }
